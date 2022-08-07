@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#root label {
+  display: block;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 15px;
+  color: gray;
+}
+
+#root input,
+#root button {
+  display: block;
+  font-size: 25px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#root input {
+  background-color: white;
+}
+
+#root button {
+  background-color: lightblue;
+  border: none;
+}
+
+#root button:hover {
+  background-color: rgb(63, 155, 185);
+}

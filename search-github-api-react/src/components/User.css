@@ -1,0 +1,16 @@
+.container {
+  padding: 10px 10px 25px;
+  margin: 20px 0 0;
+  border: 2px black;
+  border-radius: 5px;
+  background-color: darkgray;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container p {
+  background-color: darkgray;
+}
